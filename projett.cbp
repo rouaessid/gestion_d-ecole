@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projett" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projett" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projett" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="administrateur.cpp" />
+		<Unit filename="administrateur.h" />
+		<Unit filename="administration.cpp" />
+		<Unit filename="administration.h" />
+		<Unit filename="candidat.cpp" />
+		<Unit filename="candidat.h" />
+		<Unit filename="categorie.cpp" />
+		<Unit filename="categorie.h" />
+		<Unit filename="date.cpp" />
+		<Unit filename="date.h" />
+		<Unit filename="epreuve.cpp" />
+		<Unit filename="epreuve.h" />
+		<Unit filename="epreuve_admission.cpp" />
+		<Unit filename="epreuve_admission.h" />
+		<Unit filename="epreuve_oral.cpp" />
+		<Unit filename="epreuve_oral.h" />
+		<Unit filename="inscription.cpp" />
+		<Unit filename="inscription.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="personne.cpp" />
+		<Unit filename="personne.h" />
+		<Unit filename="resultat.cpp" />
+		<Unit filename="resultat.h" />
+		<Unit filename="session.cpp" />
+		<Unit filename="session.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
